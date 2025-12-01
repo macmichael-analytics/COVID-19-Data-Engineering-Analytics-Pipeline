@@ -53,7 +53,7 @@ This project delivers a fully automated Azure data pipeline that:
 ---
 ### 🏗️ Solution Architecture (Explained)
 
-<img src = "https://github.com/macmichael-analytics/COVID-19-Data-Engineering-Analytics-Pipeline/blob/main/project-snapshots/project_architeture.pngg">
+<img src = "https://github.com/macmichael-analytics/COVID-19-Data-Engineering-Analytics-Pipeline/blob/main/project-snapshots/project_architeture.png">
 
 ## 1. Data Sources
 - ECDC COVID-19 API → Daily case & death data (https://www.ecdc.europa.eu/en/covid-19)
@@ -331,6 +331,7 @@ The Cases and Deaths data together with the Hospital admissions data was transfo
 - Azure Storage Account
 - Azure Data Lake Gen2
 - Azure SQL Database
+
 
 
 
