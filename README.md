@@ -51,7 +51,9 @@ This project delivers a fully automated Azure data pipeline that:
 
 6. Publishes dashboards to Power BI for public health reporting.
 ---
-# 🏗️ Solution Architecture (Explained)
+## 🏗️ Solution Architecture (Explained)
+
+<img src = "https://github.com/macmichael-analytics/COVID-19-Data-Engineering-Analytics-Pipeline/blob/main/project-images/project_architeture.pngg">
 
 ## 1. Data Sources
 
@@ -339,6 +341,7 @@ The Cases and Deaths data together with the Hospital admissions data was transfo
 - Azure Storage Account
 - Azure Data Lake Gen2
 - Azure SQL Database
+
 
 
 
