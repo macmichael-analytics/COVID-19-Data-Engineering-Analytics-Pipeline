@@ -32,3 +32,20 @@ Public health agencies and analysts require a single source of truth to answer k
 
 - Need for dashboards accessible by leadership in real-time.
 ---
+
+## 💡 Solution Summary
+
+This project delivers a fully automated Azure data pipeline that:
+
+1. Ingests COVID-19 case and population data from APIs & Blob Storage.
+
+2. Stores raw datasets in Azure Data Lake Storage Gen2.
+
+3. Transforms & cleans data using Azure Data Factory, Azure Synapse Notebook / Databricks, and SQL transformations.
+
+4. Loads analytics-ready data into Azure SQL Database.
+
+5. Generates ML predictions for case surges (optional).
+
+6. Publishes dashboards to Power BI for public health reporting.
+---
