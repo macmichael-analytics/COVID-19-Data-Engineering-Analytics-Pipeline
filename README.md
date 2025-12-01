@@ -67,50 +67,50 @@ Azure Data Factory pipeline pulls:
 
 - Data stored in Azure Data Lake Gen2 (/raw/covid/)
 
-3. Transformation Layer
+## 3. Transformation Layer
 
 Azure Data Factory + Synapse/Databricks used for:
 
-Cleaning & reformatting
+- Cleaning & reformatting
 
-Standardizing date fields
+- Standardizing date fields
 
-Aggregating case numbers
+- Aggregating case numbers
 
-Joining with population datasets
+- Joining with population datasets
 
-Creating surrogate keys
+- Creating surrogate keys
 
-Generating fact & dimension tables
+- Generating fact & dimension tables
 
-4. Storage Layer
+## 4. Storage Layer
 
-Azure Data Lake (Raw → Curated Zones)
+- Azure Data Lake (Raw → Curated Zones)
 
 Azure SQL Database:
 
-dim_country
+- dim_country
 
-fact_covid_daily
+- fact_covid_daily
 
-fact_covid_weekly
+- fact_covid_weekly
 
-fact_population
+- fact_population
 
-5. Machine Learning Layer (Optional)
+## 5. Machine Learning Layer (Optional)
 
-Store features in ADLS
+- Store features in ADLS
 
 Train ML models (Azure ML):
 
-Time-series forecasting (ARIMA/Prophet)
+- Time-series forecasting (ARIMA/Prophet)
 
-Hotspot detection
+- Hotspot detection
 
-Predict next 7–14 days of cases
+- Predict next 7–14 days of cases
 
-6. Reporting Layer
+## 6. Reporting Layer
 
-Power BI dashboards connected to Azure SQL Database
+- Power BI dashboards connected to Azure SQL Database
 
-Auto-refresh daily
+- Auto-refresh daily
